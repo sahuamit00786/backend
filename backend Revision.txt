@@ -1,0 +1,24 @@
+* in common js ->  require and module.exports
+* in module js -> import and export default
+
+* (index % 2 === 0)  -> can use index in map for thes types of function
+
+*** for request we can use fetch / axios(specially for web) 
+
+-> with axios we dont have to handle the  json or parsing or stringify
+-> cors provides safety to our code 
+   - we have to set origin for frontend
+-> for cra - > we have to set proxy in package.json
+Solution ->
+
+1) in vite - we use it in vite.config.js
+   
+
+   server:{
+    proxy:{
+      '/api':'http://localhost:3000',
+    }
+  }
+
+  //  isse /api ke aage ye lag jayega aur server ko pata chalega ki req yaha se aayi hai
+2) cors package
