@@ -21,5 +21,9 @@ Solution ->
   }
 
   //  isse /api ke aage ye lag jayega aur server ko pata chalega ki req yaha se aayi hai
-
 2) cors package
+
+-> mongoose is used to make mongodb models in node js
+-> model name is converted in plural witbh s suffix when db is connected 
+
+// relation between models in mongodb
