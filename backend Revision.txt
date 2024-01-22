@@ -21,4 +21,5 @@ Solution ->
   }
 
   //  isse /api ke aage ye lag jayega aur server ko pata chalega ki req yaha se aayi hai
+
 2) cors package
